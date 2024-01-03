@@ -1,0 +1,307 @@
+@charset "UTF-8";
+
+
+/* ========BASIC======== */
+html {
+   overflow-y:scroll;
+}
+
+body {
+   margin:0;
+   padding:0;
+   line-height:1.6;
+   letter-spacing:1px;
+   font-family:Verdana, Helvetica, sans-serif;
+   font-size:13px;
+   color:#333;
+   background:#fff;
+}
+
+br {
+   letter-spacing:normal;
+}
+
+a {
+   color:#333;
+   text-decoration:none;
+}
+
+a:hover {
+   color:#666;
+}
+
+img {
+   border:0;
+   vertical-align:bottom;
+}
+
+h1,h2,h3,h4,h5,h6 {
+   margin:0;
+}
+
+
+/* ========TEMPLATE LAYOUT======== */
+#top {
+   width:750px;
+   height: 100;
+   margin:0 auto;
+   padding:10px 0;
+}
+
+#header {
+   position:relative;
+   width:750px;
+   margin-bottom:10px;
+}
+
+#pr {
+   position:absolute;
+   left:0;
+   top:0;
+   width:480px;
+}
+
+#gnavi {
+   position:absolute;
+   bottom:0;
+   right:0;
+}
+
+#icatch {
+   width:750px;
+}
+
+
+#contents {
+   float:center;
+   width:750px;
+   margin-top:10px;
+}
+
+#main {
+   margin-left: 8%;
+   width:560px;
+}
+
+#main2 {
+   float:left;
+   width:700px;
+   margin-left:25px;
+}
+
+#sub {
+   float:right;
+   width:180px;
+   margin-left:10px;
+}
+
+#pageTop {
+   clear:both;
+}
+
+#footMenu {
+   float:left;
+   width:750px;
+   padding-top:10px;
+}
+
+#footer {
+   clear:both;
+}
+
+
+/* ========HEADER CUSTOMIZE======== */
+#header h1 {
+   margin:0;
+   padding:1em 0 0 0;
+   font-size:32px;
+   color:#ab7b8c;
+   line-height:1.0;
+}
+
+#header h1 a {
+   color:#A7005D;
+}
+
+#header h1 a:hover {
+   color:#C71C7A;
+}
+
+#header #pr p {
+   margin:0;
+}
+
+#header #gnavi ul {
+   list-style:none;
+
+}
+#header #gnavi li {
+   float:left;
+   margin-left:15px;
+}
+
+#header #gnavi li a {
+   display:block;
+   padding-left:15px;
+   background:url("../images/bg_gnavi.gif") 0 50% no-repeat;
+}
+
+
+/* ========MAINCONTENTS CUSTOMIZE======== */
+#main a {
+   color:#A7005D;
+}
+
+#main a:hover {
+   color:#C71C7A;
+   border-bottom:1px solid #C71C7A;
+}
+
+#main h2 {
+   margin-bottom:2px;
+   padding:10px 10px;
+   font-size:15px;
+   color:#5a4816;
+   border-top:2px solid #B4A373;
+   border-bottom:2px solid #B4A373;
+   background:#ff7dcf url("../images/bg_h2.gif") 100% 100% repeat-x;
+}
+
+#main h3 {
+   margin-bottom:8px;
+   padding:0 0 0 40px;
+   line-height:2.0;
+   color:#5a4816;
+   font-size:15px;
+   font-weight:bold;
+   border:1px solid #B4A373;
+   background:#fff url("../images/bg_h3.gif") 0 50% no-repeat;
+}
+
+#main h4 {
+   margin-bottom:2px;
+   font-size:13px;
+   color:#5a4816;
+   border-bottom:2px solid #B4A373;
+}
+
+#main h5 {
+   margin-bottom:2px;
+   padding:2px;
+   font-size:13px;
+   color:#5a4816;
+   border:1px solid #B4A373;
+   background:#f7efda;
+}
+
+#main h6 {
+   margin-bottom:2px;
+   font-size:13px;
+   color:#5a4816;
+}
+
+#main p {
+   margin:0 0 1em 0;
+}
+
+#main dt {
+   margin-bottom:3px;
+}
+
+#main dd {
+   padding:0;
+   margin:0 0 0.5em 3em;
+   padding:3px;
+}
+
+#main div.icatch {
+   margin-bottom:20px;
+}
+
+
+
+/* INFORMATION CUSTOMIZE */
+* html body #main dl.information dd div {
+   display:inline-block;
+}
+
+#main dl.information dt {
+   float:left;
+   width:10em;
+   margin:0;
+   padding:0;
+}
+
+#main dl.information dd {
+   margin:0 0 0.5em 10em;
+   padding:0;
+   background:transparent;
+}
+
+#main table {
+   width:100%;
+   border-collapse: collapse;
+}
+
+#main table th {
+   padding:5px;
+   font-size:12px;
+   text-align:left;
+   background:#f7efda;
+}
+
+#main table td {
+   padding:5px;
+   font-size:12px;
+   text-align:left;
+}
+
+
+/* ========PAGETOP CUSTOMIZE========= */
+#pageTop {
+   text-align:right;
+   font-size:11px;
+}
+
+#pageTop a {
+   padding:0 0 0 8px;
+   background:url("../images/bg_pagetop.gif") 0 50% no-repeat;
+   color:#333;
+}
+
+#totop a:hover {
+   color:#999;
+}
+
+
+/* ========FOOTMENU CUSTOMIZE======== */
+#footMenu ul {
+   margin:0;
+   padding:0;
+   text-align:right;
+   background:url("../images/bg_dotline.gif") 0 0 repeat-x;
+   
+}
+
+#footMenu li {
+   display:inline;
+   margin:0 0 0 10px;
+   line-height:3.0;
+   list-style:none;
+}
+
+#footMenu li a {
+   padding-left:10px;
+   background:url("../images/bg_footmenu.gif") 0 50% no-repeat;
+}
+
+
+/* ========FOOTER CUSTOMIZE======== */
+.copyright {
+   font-style:normal;
+   font-size:11px;
+   color:#fff;
+   line-height:3.0;
+   text-align:center;
+   background:#A7005D;
+}
